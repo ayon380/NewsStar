@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url(./fonts/Product\ Sans\ Regular.ttf );
+}
+
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url(./fonts/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+  font-family: "Product Sans Italic";
+  src: url(./fonts/Product\ Sans\ Italic.ttf);
+}
+
+@font-face {
+  font-family: "Product Sans Bold Italic";
+  src: url(./fonts/Product\ Sans\ Bold\ Italic.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Product Sans Regular;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h2{
+  font-family: Product Sans Bold;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  padding-top: 5rem;
+  /* margin-bottom: 5rem; */
+}
+img{
+  height: 10rem;
+  border-radius: 15px;
+}
+.navv{
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.card{
+  font-family: Product Sans Regular;
+  font-size: 1rem;
+  border: 3px solid rgb(183, 0, 255);
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 5rem;
+  height: 35rem;
+  border-radius: 15px;
+   /* margin-bottom: 5rem; */
+}
+.wer{
+  min-height: 100vh;
+}
+.qwe{
+  height: 5rem;
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
+}
+.btn{
+  border-radius: 25px;
+}
+.card-body{
+  background-color: rgba(245, 245, 245, 0.4);
+  border-radius: 15px;
+}
+.card-title{
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+li{
+  font-weight: bold;
+}
+.card-text{
+  height: 5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar navbar-dark navbar-expand-lg bg-dark{
+  background-color: rgb(0, 0, 0);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.wer{
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
